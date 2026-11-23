@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#5b1830">
+<title>DAKSH | Ethnic Wear</title>
+<style>
+:root{--wine:#5b1830;--gold:#c59b55;--cream:#fbf7f0;--ink:#282321}
+*{box-sizing:border-box}body{margin:0;font-family:Arial, sans-serif;background:var(--cream);color:var(--ink)}
+header{background:#fff;padding:15px 5%;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:5;box-shadow:0 2px 12px #0000000d}
+.brand{font-family:Georgia,serif;font-size:28px;letter-spacing:4px;color:var(--wine);font-weight:bold}.brand small{display:block;font:10px Arial;letter-spacing:4px;text-align:center;color:var(--gold)}
+nav a{color:var(--wine);text-decoration:none;margin-left:18px;font-size:14px}
+.hero{padding:65px 7%;background:linear-gradient(110deg,#f4e8dc,#ead5c8);display:grid;grid-template-columns:1.1fr .9fr;gap:25px;align-items:center}
+.hero h1{font:clamp(38px,6vw,64px) Georgia,serif;color:var(--wine);margin:0 0 14px}.hero p{line-height:1.7;max-width:480px;color:#594b45}
+.hero img{width:100%;height:340px;object-fit:cover;border-radius:4px}
+.btn{display:inline-block;background:var(--wine);color:white;text-decoration:none;padding:13px 22px;border-radius:2px;margin-top:12px;font-weight:bold}
+.section{padding:48px 6%}.section h2{text-align:center;font:34px Georgia,serif;color:var(--wine);margin:0 0 8px}.sub{text-align:center;color:#75665d;margin:0 0 30px}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.product{background:#fff;padding:10px;box-shadow:0 4px 18px #4422110c}
+.product img{width:100%;height:300px;object-fit:cover;background:#eee}.product h3{font:20px Georgia,serif;margin:13px 4px 5px;color:var(--wine)}
+.product p{margin:0 4px 8px;color:#766b64;font-size:13px}.price{margin:0 4px;font-weight:bold}.order{display:block;text-align:center;background:#26734a;color:#fff;text-decoration:none;padding:11px;margin:13px 4px 4px}
+.note{background:#f0e5d9;padding:20px;text-align:center;color:#65534a;font-size:13px;line-height:1.6}
+footer{background:var(--wine);color:#fff;text-align:center;padding:25px 15px;font-size:13px}
+.float{position:fixed;bottom:18px;right:18px;background:#25d366;color:white;text-decoration:none;border-radius:30px;padding:14px 18px;font-weight:bold;box-shadow:0 4px 14px #0003;z-index:10}
+@media(max-width:700px){nav{display:none}.hero{grid-template-columns:1fr;padding:42px 6%}.hero img{height:260px}.products{grid-template-columns:repeat(2,1fr);gap:12px}.product img{height:220px}.section{padding:38px 4%}}
+@media(max-width:430px){.products{grid-template-columns:1fr 1fr}.product img{height:190px}.product h3{font-size:17px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">DAKSH<small>ETHNIC WEAR</small></div>
+  <nav><a href="#home">Home</a><a href="#collection">Collection</a><a href="#contact">Contact</a></nav>
+</header>
+<section class="hero" id="home">
+  <div><p style="letter-spacing:3px;color:#9b7546;font-weight:bold">ELEGANCE IN EVERY THREAD</p>
+  <h1>Find your<br>perfect suit.</h1>
+  <p>Khoobsurat ethnic wear, aapki har khaas occasion ke liye. Apna pasandida design chuniye aur WhatsApp par order kijiye.</p>
+  <a class="btn" href="#collection">Explore Collection</a></div>
+  <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=85" alt="Indian ethnic fashion">
+</section>
+<section class="section" id="collection">
+  <h2>Our Collection</h2><p class="sub">DAKSH ke featured designs</p>
+  <div class="products">
+    <article class="product">
+      <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=85" alt="Ethnic suit design">
+      <h3>Elegant Festive Suit</h3><p>Graceful look · Occasion wear</p><div class="price">₹1,499</div>
+      <a class="order" href="https://wa.me/919636396296?text=Namaste%20DAKSH%2C%20mujhe%20Elegant%20Festive%20Suit%20ke%20baare%20mein%20jaankari%20chahiye.">Order on WhatsApp</a>
+    </article>
+    <article class="product">
+      <img src="https://images.unsplash.com/photo-1583391733958-6c78276477e3?auto=format&fit=crop&w=700&q=85" alt="Traditional clothing">
+      <h3>Classic Daily Wear</h3><p>Comfortable · Everyday style</p><div class="price">₹999</div>
+      <a class="order" href="https://wa.me/919636396296?text=Namaste%20DAKSH%2C%20mujhe%20Classic%20Daily%20Wear%20ke%20baare%20mein%20jaankari%20chahiye.">Order on WhatsApp</a>
+    </article>
+    <article class="product">
+      <img src="https://images.unsplash.com/photo-1597983073493-88cd35cf93b0?auto=format&fit=crop&w=700&q=85" alt="Indian fashion outfit">
+      <h3>Premium Party Suit</h3><p>Special occasions · Elegant style</p><div class="price">₹1,799</div>
+      <a class="order" href="https://wa.me/919636396296?text=Namaste%20DAKSH%2C%20mujhe%20Premium%20Party%20Suit%20ke%20baare%20mein%20jaankari%20chahiye.">Order on WhatsApp</a>
+    </article>
+  </div>
+</section>
+<div class="note">Note: Ye sample products aur prices sirf website ka demo dikhane ke liye hain. Actual suits, prices, sizes aur availability confirm karke hi order final hoga.</div>
+<section class="section" id="contact" style="text-align:center">
+  <h2>Order & Enquiries</h2><p class="sub">Apna favourite design WhatsApp par bhejiye</p>
+  <a class="btn" href="https://wa.me/919636396296?text=Namaste%20DAKSH%2C%20mujhe%20suits%20ki%20collection%20dekhni%20hai.">Chat with DAKSH</a>
+</section>
+<footer>© DAKSH ETHNIC WEAR · Made with care<br>WhatsApp: +91 96363 96296</footer>
+<a class="float" href="https://wa.me/919636396296?text=Namaste%20DAKSH%2C%20mujhe%20suits%20ki%20collection%20dekhni%20hai.">WhatsApp</a>
+</body></html>
